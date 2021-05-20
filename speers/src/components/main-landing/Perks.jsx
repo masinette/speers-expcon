@@ -1,8 +1,12 @@
 import React from 'react'
 import './main-landing.css';
+import NavBar from "../NavBar";
 
 export default function Perks() {
   return (
-    <div>Perks</div>
+    <div class="perks-bg-color">
+      <NavBar/>
+      Perks
+    </div>
   )
 }

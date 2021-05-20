@@ -1,8 +1,12 @@
 import React from 'react'
 import './main-landing.css';
+import NavBar from "../NavBar";
 
 export default function GetECNow() {
   return (
-    <div>GetECNow</div>
+    <div class="get-ec-now-bg-color">
+    <NavBar/>
+      GetECNow
+    </div>
   )
 }

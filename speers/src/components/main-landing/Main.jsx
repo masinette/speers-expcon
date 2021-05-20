@@ -6,6 +6,7 @@ import FrontRowSeats  from "../main-landing/FrontRowSeats"
 import Perks  from "../main-landing/Perks"
 import Reviews  from "../main-landing/Reviews"
 import GetECNow  from "../main-landing/GetECNow"
+import Footer from "../main-landing/Footer"
 import './main-landing.css';
 
 
@@ -20,6 +21,7 @@ export default function Main(props) {
       <Perks />
       <Reviews />
       <GetECNow />
+      <Footer/>
     </div>
   )
 };

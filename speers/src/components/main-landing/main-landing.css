@@ -2,3 +2,22 @@
   background-color: #D34849;
   height: 90vh;
 }
+
+.front-row-seats-bg-color{
+  background-color: #FFB43F;
+  height: 90vh;
+}
+.perks-bg-color, .get-ec-now-bg-color{
+  background-color: #1A1A1A;
+  height: 90vh;
+  color: #FFF;
+}
+.reviews-bg-color{
+  background-color: #21E1E9;
+  height: 90vh;
+}
+.footer-bg-color{
+  background-color: #5F34D1;
+  height: 30vh;
+  color: #FFF;
+}
