@@ -7,7 +7,9 @@ import Footer from "./components/Footer";
 import Main from "./components/main-landing/Main";
 
 
+
 function App() {
+
   return (
     <div className="App">
       <Router>
