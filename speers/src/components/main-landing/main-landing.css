@@ -7,17 +7,44 @@
   background-color: #FFB43F;
   height: 90vh;
 }
-.perks-bg-color, .get-ec-now-bg-color{
-  background-color: #1A1A1A;
-  height: 90vh;
-  color: #FFF;
-}
 .reviews-bg-color{
   background-color: #21E1E9;
   height: 90vh;
 }
+
+/* --------- PERKS -------------------------------------*/
+.perks-bg-color, .get-ec-now-bg-color{
+  /* inherit background-color to change depending on which component renders perks */
+  background-color: inherit;
+  height: 90vh;
+  color: #FFF; 
+  margin: 10%;
+}
+.perks-section-title{
+  font: bold 74px Helvetica Neue;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.perks-col-title{
+  text-align: left;
+  padding-right: 10px;
+  font: bold 51px Helvetica Neue;
+}
+.perks-col-text{
+  font: 35px Helvetica Neue;
+  color: #0B0B0B;
+  text-align: left; 
+  padding-right: 10px;
+}
+.perks-col-line-break{
+  text-align: left;
+  font-weight: bold;
+}
+
+/* --------- FOOTER -------------------------------------*/
 .footer-bg-color{
-  background-color: #5F34D1;
+  background-color: ##5E33D1;
   height: 30vh;
   color: #FFF;
 }
