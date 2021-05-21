@@ -17,7 +17,10 @@ export default function Main(props) {
       <Hero />
       <SuperiorSound />
       <FrontRowSeats />
+      <div class="bg-color-black">
+
       <Perks />
+      </div>
       <Reviews />
       <GetECNow />
       <Footer/>

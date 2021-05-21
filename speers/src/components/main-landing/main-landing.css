@@ -10,11 +10,15 @@
   background-color: #21E1E9;
   height: 90vh;
 }
+
 .navbar{
   position: absolute;
   background: none;
   width: 100%;
-  margin-top: 30px;;
+  margin-top: 30px;
+}
+.bg-color-black{
+  background-color: #191919;
 }
 
 /* --------- HERO -------------------------------------*/
@@ -59,7 +63,7 @@
 }
 
 /* --------- PERKS -------------------------------------*/
-.perks-bg-color, .get-ec-now-bg-color{
+.perks-bg-color{
   /* inherit background-color to change depending on which component renders perks */
   background-color: inherit;
   height: 90vh;
@@ -253,3 +257,31 @@
   height: 100%;
 }
 
+/* --------- GET EXP|CON NOW -------------------------------------*/
+.gen-text-wrapper{
+  text-align: left;
+  font: normal normal normal 31px/61px Helvetica Neue;
+  letter-spacing: 5.1px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.get-ec-now-bg-color{
+  background-color: #191919;
+  height: 70vh;
+  color: #FFF;
+}
+.gen-title{
+  color: #D34848;
+  text-align: left;
+  font: normal normal bold 50px Helvetica Neue;
+  letter-spacing: 7.4px;
+  opacity: 1;
+}
+.gen-section-wrapper{
+  padding-top:20%;
+  display: flex;
+  padding-left: 10%;
+}
+.gen-try-it-btn{
+  padding-left: 15%;
+}
