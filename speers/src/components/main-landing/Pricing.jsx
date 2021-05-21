@@ -28,22 +28,22 @@ export default function Pricing() {
               <div>
                 <ul class="pricing-list">
                   <li>
-                    &#x1F3B5; Very good 
+                    &#x266A; Very good 
                   </li>
                   <li>
-                    &#x1F3B5; Amazing 
+                    &#x266A; Amazing 
                   </li>
                   <li>
-                    &#x1F3B5; Perfect job 
+                    &#x266A; Perfect job 
                   </li>
                   <li>
-                    &#x1F3B5; Love this 
+                    &#x266A; Love this 
                   </li>
                   <li>
-                    &#x1F3B5; It’s so good 
+                    &#x266A; It’s so good 
                   </li>
                   <li>
-                    &#x1F3B5; Features
+                    &#x266A; Features
                   </li>
                 </ul>
                 <Badge pill variant="basic" class="pricing-button-select">Select</Badge>
@@ -61,22 +61,22 @@ export default function Pricing() {
               <div>
                 <ul class="pricing-list">
                   <li>
-                    &#x1F3B5; Very very good 
+                    &#x266A; Very very good 
                   </li>
                   <li>
-                    &#x1F3B5; Even Amazing 
+                    &#x266A; Even Amazing 
                   </li>
                   <li>
-                    &#x1F3B5; Perfect job 
+                    &#x266A; Perfect job 
                   </li>
                   <li>
-                    &#x1F3B5; Love this more
+                    &#x266A; Love this more
                   </li>
                   <li>
-                    &#x1F3B5; It’s so so good 
+                    &#x266A; It’s so so good 
                   </li>
                   <li>
-                    &#x1F3B5; More Features
+                    &#x266A; More Features
                   </li>
                 </ul>
                 <Badge pill variant="advanced" class="pricing-button-select">Select</Badge>
@@ -95,22 +95,22 @@ export default function Pricing() {
               <div>
                 <ul class="pricing-list">
                   <li>
-                    &#x1F3B5; Very very good 
+                    &#x266A; Very very good 
                   </li>
                   <li>
-                    &#x1F3B5; Even more Amazing 
+                    &#x266A; Even more Amazing 
                   </li>
                   <li>
-                    &#x1F3B5; Perfect job 
+                    &#x266A; Perfect job 
                   </li>
                   <li>
-                    &#x1F3B5; Love this more 
+                    &#x266A; Love this more 
                   </li>
                   <li>
-                    &#x1F3B5; It’s so so good 
+                    &#x266A; It’s so so good 
                   </li>
                   <li>
-                    &#x1F3B5; More Features
+                    &#x266A; More Features
                   </li>
                 </ul>
               <div class="pricing-col-wrapper-pro">

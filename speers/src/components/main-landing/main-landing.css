@@ -66,23 +66,25 @@
 .perks-bg-color{
   /* inherit background-color to change depending on which component renders perks */
   background-color: inherit;
-  height: 90vh;
   color: #FFF; 
-  margin: 10%;
+  margin-bottom: 7%;
+
 }
 .perks-section-title{
   font: bold 74px Helvetica Neue;
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 50px;
+  padding-top: 150px;
+  margin-left: 20%;
 }
 .perks-col-title{
   text-align: left;
   padding-right: 10px;
-  font: bold 51px Helvetica Neue;
+  font: bold 45px Helvetica Neue;
 }
 .perks-col-text{
-  font: 35px Helvetica Neue;
+  font: 30px Helvetica Neue;
   color: #0B0B0B;
   text-align: left; 
   padding-right: 10px;
@@ -127,22 +129,25 @@
 /* --------- PRICING -------------------------------------*/
 
 .pricing-section-title{
-  font: bold 74px Helvetica Neue;
+  font: bold 64px Helvetica Neue;
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 50px;
+  padding-top: 150px;
 }
 .pricing-section-description{
   text-align: left;
-  font: normal normal normal 51px/80px Helvetica Neue;
+  font: normal normal normal 45px Helvetica Neue;
   /* letter-spacing: 5.1px; */
   color: #FFFFFF;
   opacity: 1;
+  padding-bottom: 100px;
+
 }
 .pricing-list li{
   list-style-type: none;
   text-align: left;
-  font: normal normal normal 47px/64px Helvetica Neue;
+  font: normal normal normal 30px/64px Helvetica Neue;
   /* letter-spacing: 4.7px; */
   color: #FFFFFF;
   opacity: 1;
@@ -163,7 +168,7 @@
 }
 .pricing-type{
   text-align: left;
-  font: normal normal bold 42px/51px Helvetica Neue;
+  font: normal normal bold 40px/51px Helvetica Neue;
   letter-spacing: 4.2px;
   opacity: 1;
   text-transform: uppercase;
@@ -171,16 +176,15 @@
 }
 .pricing-time{
   text-align: left;
-  font: normal normal bold 47px/57px Helvetica Neue;
+  font: normal normal bold 40px/57px Helvetica Neue;
   letter-spacing: 4.7px;
   opacity: 1;
   text-transform: uppercase;
   color:inherit;
-  
 }
 .pricing-cost{
   text-align: left;
-  font: normal normal bold 134px/164px Helvetica Neue;
+  font: normal normal bold 110px/164px Helvetica Neue;
   letter-spacing: 13.4px;
   opacity: 1;
   color:inherit;
@@ -205,26 +209,21 @@
   color: #FFF;
   background-color: #1FE1E9;
   font-size: 24px;
-  
 }
 .pricing-packages{
+  display: flexbox;
   margin-top: 200px;
   /* width: 100vw */
 }
 .pricing-page-bg-color{
   background-color: #191919;
-  /* height: 120vh; */
   color: #FFF;
   padding: 5%;
+  padding-bottom: 250px;
 }
 .pricing-perks-bg-color{
   background-color: #D34848;
-  /* height: 90vh; */
   word-break: break-word;
-
-}
-.pricing-packages{
-  display: flexbox;
 }
 
 /* --------- SUPERIOR SOUND -------------------------------------*/
@@ -284,4 +283,9 @@
 }
 .gen-try-it-btn{
   padding-left: 15%;
+}
+
+/* --------- REVIEWS -------------------------------------*/
+.review-monitor-top,.review-monitor-bottom{
+  height: 500px
 }
