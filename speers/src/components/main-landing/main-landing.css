@@ -12,8 +12,46 @@
 }
 
 /* --------- HERO -------------------------------------*/
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: inherit;
+  border: #FFF solid 1px;
+}
+.carousel-indicators li:hover{
+  background-color: #FFF;
+}
+.carousel-indicators li:active{
+  background-color: #FFF;
+}
+.carousel-item{
+    /* align-items: center; */
+  /* align-self: center; */
+  /* top: 50%; */
+  /* text-align: center; */
+  color: magenta;
+}
 .hero-bg-img{
   height: 90vh;
+}
+.carousel-caption h3{
+  font: normal normal bold 65px/79px Helvetica Neue;
+  letter-spacing: 6.5px;
+  color: #FFFFFF;
+  opacity: 1;
+      /* align-items: center; */
+  /* align-self: center; */
+  top: 50%;
+  /* text-align: center; */
+  color: magenta;
+}
+.carousel-caption p{
+  text-align: center;
+  font: normal normal normal 32px/44px Helvetica Neue;
+  letter-spacing: 3.2px;
+  color: #FFFFFF;
+  opacity: 1;
 }
 
 /* --------- PERKS -------------------------------------*/
