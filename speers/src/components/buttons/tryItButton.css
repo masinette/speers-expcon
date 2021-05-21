@@ -1,6 +1,21 @@
-.try-it-btn .badge-dark{
+.badge-dark{
   color: #FFF;
   background-image: linear-gradient(to right, #1FE1E9, #5E33D1, #D34848, #FFB33F);
   text-transform: uppercase;
   padding: 10px 25px;
+}
+.badge-light{
+  color: inherit;
+  background-color: #FFF;
+  text-transform: uppercase;
+  padding: 15px 50px;
+}
+a.try-it-white-btn{
+  color: inherit;
+  text-decoration: none;
+}
+.circle-speaker-btn{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }

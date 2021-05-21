@@ -2,11 +2,13 @@ import React from 'react'
 import './main-landing.css';
 import NavBar from "../NavBar";
 import { Container, Row, Col } from "react-bootstrap";
+import TryItButton from "../buttons/TryItButton";
+import TryItButtonWhite from "../buttons/TryItButtonWhite"
 
 export default function Perks() {
   return (
     <div>
-      <NavBar/>
+      <NavBar button={TryItButton}/>
       <div class="perks-bg-color">
 
         <h2 class="perks-section-title">Perks</h2>

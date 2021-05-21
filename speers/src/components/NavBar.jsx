@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import TryItButton from "./buttons/TryItButton";
+import TryItButtonWhite from "./buttons/TryItButtonWhite";
 
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <div>
       <Navbar expand="lg" variant="dark">
@@ -19,7 +20,7 @@ export default function NavBar() {
             </NavDropdown>
             <Navbar.Brand as={Link} to="/">EXP|CON</Navbar.Brand>
           </Nav>
-            <Navbar.Brand as={TryItButton}></Navbar.Brand>
+            <Navbar.Brand as={props.button}></Navbar.Brand>
         </Navbar.Collapse>
       </Navbar>
     </div>

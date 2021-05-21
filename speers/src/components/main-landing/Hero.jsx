@@ -8,7 +8,7 @@ import thirdImage from "../../images/image3.png";
 import TryItButton from "../buttons/TryItButton";
 
 
-export default function Hero() {
+export default function Hero(props) {
 
   return (
     <div class="hero-bg-img">
@@ -20,11 +20,11 @@ export default function Hero() {
             src={firstImage}
             alt="First slide"
             />
-            <TryItButton/>
           <Carousel.Caption >
             <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
             <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
           </Carousel.Caption>
+            {/* <TryItButton/> */}
         </Carousel.Item>
 
         <Carousel.Item interval={1000}>

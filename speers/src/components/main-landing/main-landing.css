@@ -14,7 +14,9 @@
   position: absolute;
   background: none;
   width: 100%;
+  margin-top: 30px;;
 }
+
 /* --------- HERO -------------------------------------*/
 .carousel-indicators li{
   width: 10px;
@@ -22,6 +24,7 @@
   border-radius: 100%;
   background-color: inherit;
   border: #FFF solid 1px;
+  /* margin-bottom: 100px; */
 }
 .carousel-indicators li:hover{
   background-color: #FFF;
@@ -36,10 +39,6 @@
   /* text-align: center; */
   color: magenta;
 }
-.hero-bg-img{
-  height: 90vh;
-}
-
 .carousel-caption h3{
   font: normal normal bold 65px/79px Helvetica Neue;
   letter-spacing: 6.5px;
@@ -222,5 +221,35 @@
 }
 .pricing-packages{
   display: flexbox;
+}
+
+/* --------- SUPERIOR SOUND -------------------------------------*/
+.ss-speaker-right{
+  transform: scaleX(-1);
+  height: 20%;
+  margin-top: 80%;
+}
+.ss-speaker-left{  
+  height: 20%;
+  margin-top: 10%;
+}
+.ss-title{
+  text-align: left;
+  font: normal normal bold 64px Helvetica Neue;
+  letter-spacing: 7.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 40%;
+  width: max-content
+}
+.ss-text{
+  text-align: left;
+  font: normal normal normal 41px Helvetica Neue;
+  letter-spacing: 5.1px;
+  color: #0B0B0B;
+  opacity: 1;
+}
+.ss-speaker-wrapper{
+  height: 100%;
 }
 

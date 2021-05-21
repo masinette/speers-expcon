@@ -1,6 +1,5 @@
 import React from 'react';
 import TryItButton from "./buttons/TryItButton";
-import "./pricing.css";
 import Pricing from "./main-landing/Pricing";
 import Perks from "./main-landing/Perks";
 import Footer from "./main-landing/Footer";
