@@ -18,4 +18,14 @@ a.try-it-white-btn{
   height: 100px;
   width: 100px;
   border-radius: 50%;
+  background-color: transparent;
+  border: solid 2px #fff;
+  color: #FFF;
+  text-transform: uppercase;
+  font: normal normal bold 18px Helvetica Neue;
+  letter-spacing: 2.7px;
+  opacity: 1;
+  position: absolute;
+  top: 37%;
+  left: 40%;
 }

@@ -30,8 +30,8 @@ export default function SuperiorSound() {
               <div class="ss-speaker-wrapper">
                 <img class="ss-speaker-left" src={speakerImage} alt="speaker box" />
                 <img class="ss-speaker-right" src={speakerImage} alt="speaker box" />
-                <CirclePresentationButton/>
               </div>
+                <CirclePresentationButton/>
             </Col>
           </Row>
         </Container>
