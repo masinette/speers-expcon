@@ -10,7 +10,11 @@
   background-color: #21E1E9;
   height: 90vh;
 }
-
+.navbar{
+  position: absolute;
+  background: none;
+  width: 100%;
+}
 /* --------- HERO -------------------------------------*/
 .carousel-indicators li{
   width: 10px;
@@ -35,6 +39,7 @@
 .hero-bg-img{
   height: 90vh;
 }
+
 .carousel-caption h3{
   font: normal normal bold 65px/79px Helvetica Neue;
   letter-spacing: 6.5px;

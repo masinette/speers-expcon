@@ -7,7 +7,7 @@ import TryItButton from "./buttons/TryItButton";
 export default function NavBar() {
   return (
     <div>
-<Navbar expand="lg">
+<Navbar expand="lg" variant="dark">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">

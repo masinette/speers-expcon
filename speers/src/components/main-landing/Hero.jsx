@@ -12,9 +12,9 @@ export default function Hero() {
 
   return (
     <div class="hero-bg-img">
-          <NavBar/>
       <Carousel fade>
         <Carousel.Item interval={10000}>
+          <NavBar/>
           <img
             className="d-block w-100"
             src={firstImage}
@@ -28,6 +28,7 @@ export default function Hero() {
         </Carousel.Item>
 
         <Carousel.Item interval={1000}>
+        <NavBar/>
           <img
             className="d-block w-100"
             src={secondImage}
@@ -40,6 +41,8 @@ export default function Hero() {
         </Carousel.Item>
 
         <Carousel.Item interval={1000}>
+        <NavBar/>
+
           <img
             className="d-block w-100"
             src={thirdImage}
