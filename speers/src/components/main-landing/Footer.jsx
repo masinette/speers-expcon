@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <div class="footer-bg-color">
       <div>
-        <p> &#x2709; support@experienceconcerts.co</p>
+        <p class="footer-contact"> &#x2709; support@experienceconcerts.co</p>
       </div>
-      <h5>EXP|CON</h5>
-      <p>2019 &copy; All Rights Reserved | Speer Technologies Incorporated </p>
+      <h5 class="footer-logo">EXP|CON</h5>
+      <p class="footer-text">2019 &copy; All Rights Reserved | Speer Technologies Incorporated </p>
     </div>
   )
 }

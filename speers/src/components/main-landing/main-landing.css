@@ -44,7 +44,29 @@
 
 /* --------- FOOTER -------------------------------------*/
 .footer-bg-color{
-  background-color: ##5E33D1;
+  background-color: #5E33D1;
   height: 30vh;
   color: #FFF;
+}
+.footer-logo{
+  text-align: center;
+  font: 48px/57px Helvetica Neue;
+  letter-spacing: 4.8px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 50px;
+}
+.footer-text{
+  font: normal normal normal 24px/29px Helvetica Neue;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.footer-contact{
+  text-align: left;
+  font: normal normal normal 35px/41px Helvetica Neue;
+  letter-spacing: 3.5px;
+  color: #FFFFFF;
+  opacity: 1;
+  padding-left: 200px;
 }
