@@ -2,7 +2,6 @@
   background-color: #D34849;
   height: 90vh;
 }
-
 .front-row-seats-bg-color{
   background-color: #FFB43F;
   height: 90vh;
@@ -45,8 +44,10 @@
 /* --------- FOOTER -------------------------------------*/
 .footer-bg-color{
   background-color: #5E33D1;
-  height: 30vh;
+  /* height: 30vh; */
   color: #FFF;
+  padding-top: 140px;
+  padding-bottom: 40px;
 }
 .footer-logo{
   text-align: center;
@@ -69,4 +70,106 @@
   color: #FFFFFF;
   opacity: 1;
   padding-left: 200px;
+}
+/* --------- PRICING -------------------------------------*/
+
+.pricing-section-title{
+  font: bold 74px Helvetica Neue;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.pricing-section-description{
+  text-align: left;
+  font: normal normal normal 51px/80px Helvetica Neue;
+  /* letter-spacing: 5.1px; */
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricing-list li{
+  list-style-type: none;
+  text-align: left;
+  font: normal normal normal 47px/64px Helvetica Neue;
+  /* letter-spacing: 4.7px; */
+  color: #FFFFFF;
+  opacity: 1;
+}
+.pricing-col-wrapper{
+  text-align: left;
+  padding-right: 10px;
+  font: bold 51px Helvetica Neue;
+}
+.pricing-col-wrapper-basic{
+  color: #D24848;
+}
+.pricing-col-wrapper-advanced{
+  color: #FFB33F;
+}
+.pricing-col-wrapper-pro{
+  color: #1FE1E9;
+}
+.pricing-type{
+  text-align: left;
+  font: normal normal bold 42px/51px Helvetica Neue;
+  letter-spacing: 4.2px;
+  opacity: 1;
+  text-transform: uppercase;
+  color:inherit;
+}
+.pricing-time{
+  text-align: left;
+  font: normal normal bold 47px/57px Helvetica Neue;
+  letter-spacing: 4.7px;
+  opacity: 1;
+  text-transform: uppercase;
+  color:inherit;
+  
+}
+.pricing-cost{
+  text-align: left;
+  font: normal normal bold 134px/164px Helvetica Neue;
+  letter-spacing: 13.4px;
+  opacity: 1;
+  color:inherit;
+}
+.badge-basic{
+  padding: 20px 100px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #D24848;
+  font-size: 24px;
+}
+.badge-advanced{
+  padding: 20px 100px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #FFB33F;
+  font-size: 24px;
+}
+.badge-pro{
+  padding: 20px 100px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #1FE1E9;
+  font-size: 24px;
+  
+}
+.pricing-packages{
+  margin-top: 200px;
+  /* width: 100vw */
+}
+.pricing-page-bg-color{
+  background-color: #191919;
+  /* height: 120vh; */
+  color: #FFF;
+  padding: 5%;
+}
+.pricing-perks-bg-color{
+  background-color: #D34848;
+  /* height: 90vh; */
+  word-break: break-word;
+
+}
+.pricing-packages{
+  display: flexbox;
 }
