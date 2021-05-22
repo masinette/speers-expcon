@@ -17,7 +17,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Main />} />
           <Route path="/payments" exact component={() => <Payments />} />
-          <Route path="/pricing" exact component={() => <PricingPage />} />
+          <Route path="/pricing" component={PricingPage} />
+
+          {/* <Route path="/pricing" exact component={() => <PricingPage />} /> */}
         </Switch>
         {/* <Footer/> */}
       </Router>
