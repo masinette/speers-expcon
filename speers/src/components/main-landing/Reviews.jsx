@@ -11,12 +11,10 @@ export default function Reviews() {
   return (
     <div class="reviews-bg-color">
       <NavBar button={TryItButtonWhite}/>
-      <div class="ss-wrapper">
-
-      <NavBar button={TryItButtonWhite}/>
-
+      <div class="review-wrapper">
+      <h5 class="reviews-page-title">REVIEWS</h5>
         <Container fluid>
-          <Row>
+          <Row >
             <Col>
               <div class="review-monitor-wrapper">
                 <img class="review-monitor-top" src={monitorImage1} alt="speaker box" />
@@ -25,24 +23,25 @@ export default function Reviews() {
             </Col>
             <Col>
               <div class="review-text-wrapper">
-                <h5 class="ss-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>ARTIST</h5>
-                <p class="ss-text">“Love it, it’s the Best.I can’t live without it!”</p>
+                <h5 class="review-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>ARTIST</h5>
+                <p class="review-text">“Love it, it’s the Best.I can’t live without it!”</p>
               </div>
             </Col>
             <Col>
               <div class="review-text-wrapper">
-                <h5 class="ss-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>PRODUCER</h5>
-                <p class="ss-text">“Love it, it’s the Best.I can’t live without it!”</p>
+                <h5 class="review-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>PRODUCER</h5>
+                <p class="review-text">“Love it, it’s the Best.I can’t live without it!”</p>
               </div>
             </Col>
             <Col>
               <div class="review-text-wrapper">
-                <h5 class="ss-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>MUSIC FAN</h5>
-                <p class="ss-text">“Love it, it’s the Best.I can’t live without it!”</p>
+                <h5 class="review-title"><p class="star-rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>MUSIC FAN</h5>
+                <p class="review-text">“Love it, it’s the Best.I can’t live without it!”</p>
               </div>
             </Col>
           </Row>
         </Container>
-      </div>    </div>
+      </div>    
+    </div>
   )
 }

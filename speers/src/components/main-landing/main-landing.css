@@ -286,6 +286,33 @@
 }
 
 /* --------- REVIEWS -------------------------------------*/
-.review-monitor-top,.review-monitor-bottom{
-  height: 500px
+.review-monitor-top, .review-monitor-bottom{
+  height: 100%;
+  width: 150%;
+  margin-top: -175px;
+  margin-left: -50px;
+}
+.star-rating{
+  color: #000;
+}
+.review-title{
+  font: normal normal bold 30px/43px Helvetica Neue;
+  letter-spacing: 3.5px;
+  color: #FFF;
+}
+.review-text{
+  font: normal normal 30px/43px Helvetica Neue;
+  letter-spacing: 3.5px;
+  /* padding-left: 10%; */
+}
+.review-wrapper{
+  padding-top: 200px;
+}
+.reviews-page-title{
+  font: normal normal bold 65px/90px Helvetica Neue;
+  letter-spacing: 7.4px;
+  padding-top: 50px;
+  padding-left: 26%;
+  padding-bottom: 25px;
+  color: #FFF;
 }
