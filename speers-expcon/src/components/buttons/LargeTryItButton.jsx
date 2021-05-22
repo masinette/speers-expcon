@@ -10,6 +10,7 @@ export default function LargeTryItButton(props) {
         <a href="pricing" >
           <Badge pill type="button" variant="lg-dark" >Try It Now</Badge>
         </a>
+        <Link to="/pricing">PRICING</Link>
     </div>
   )
 };
