@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/speers-expcon/static/css/main.ecd26141.chunk.css",
-    "main.js": "/speers-expcon/static/js/main.90243237.chunk.js",
-    "main.js.map": "/speers-expcon/static/js/main.90243237.chunk.js.map",
+    "main.css": "/speers-expcon/static/css/main.4054174a.chunk.css",
+    "main.js": "/speers-expcon/static/js/main.e79024f9.chunk.js",
+    "main.js.map": "/speers-expcon/static/js/main.e79024f9.chunk.js.map",
     "runtime-main.js": "/speers-expcon/static/js/runtime-main.71b7d348.js",
     "runtime-main.js.map": "/speers-expcon/static/js/runtime-main.71b7d348.js.map",
     "static/js/2.f64b2cc3.chunk.js": "/speers-expcon/static/js/2.f64b2cc3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.38ff461f.chunk.js": "/speers-expcon/static/js/3.38ff461f.chunk.js",
     "static/js/3.38ff461f.chunk.js.map": "/speers-expcon/static/js/3.38ff461f.chunk.js.map",
     "index.html": "/speers-expcon/index.html",
-    "static/css/main.ecd26141.chunk.css.map": "/speers-expcon/static/css/main.ecd26141.chunk.css.map",
+    "static/css/main.4054174a.chunk.css.map": "/speers-expcon/static/css/main.4054174a.chunk.css.map",
     "static/js/2.f64b2cc3.chunk.js.LICENSE.txt": "/speers-expcon/static/js/2.f64b2cc3.chunk.js.LICENSE.txt",
     "static/media/SmallSpeaker1-03@2x.3ad0319d.png": "/speers-expcon/static/media/SmallSpeaker1-03@2x.3ad0319d.png",
     "static/media/SmallSpeaker2-03@2x.ca0cdbbe.png": "/speers-expcon/static/media/SmallSpeaker2-03@2x.ca0cdbbe.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.71b7d348.js",
     "static/js/2.f64b2cc3.chunk.js",
-    "static/css/main.ecd26141.chunk.css",
-    "static/js/main.90243237.chunk.js"
+    "static/css/main.4054174a.chunk.css",
+    "static/js/main.e79024f9.chunk.js"
   ]
 }
