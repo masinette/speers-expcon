@@ -2,7 +2,7 @@
   color: #FFF;
   background-image: linear-gradient(to right, #1FE1E9, #5E33D1, #D34848, #FFB33F);
   text-transform: uppercase;
-  padding: 10px 25px;
+  padding: 15px 50px;
 }
 .badge-light{
   color: inherit;

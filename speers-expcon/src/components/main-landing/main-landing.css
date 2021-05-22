@@ -29,7 +29,11 @@
 .navbar-expand-lg .navbar-nav .nav-link{
   font: normal normal normal 48px/57px Helvetica Neue;
 }
-/* --------- HERO -------------------------------------*/
+.dropdown-toggle::after{
+  display: none;
+}
+
+--------- HERO -------------------------------------
 .carousel-control-prev-icon{
   background-image: none;
 }
@@ -88,7 +92,7 @@
   text-align: left;
   margin-bottom: 50px;
   padding-top: 150px;
-  margin-left: 20%;
+  margin-left: 11%;
 }
 .perks-col-title{
   text-align: left;

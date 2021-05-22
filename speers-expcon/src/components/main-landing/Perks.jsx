@@ -5,10 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import TryItButton from "../buttons/TryItButton";
 import TryItButtonWhite from "../buttons/TryItButtonWhite"
 
-export default function Perks() {
+export default function Perks(props) {
   return (
     <div>
-      <NavBar button={TryItButton}/>
+      <NavBar button={props.button}/>
       <div class="perks-bg-color">
 
         <h2 class="perks-section-title">Perks</h2>
