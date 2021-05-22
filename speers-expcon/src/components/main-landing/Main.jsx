@@ -23,7 +23,6 @@ export default function Main(props) {
           perksCol1={"perks-col-1"} 
           perksCol2={"perks-col-2"} 
           perksCol3={"perks-col-3"}
-          perksColTextColor={"perks-col-text-color"}
         />
       </div>
       <Reviews />

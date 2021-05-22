@@ -11,6 +11,16 @@
   padding: 15px 50px;
   position: relative;
 }
+a .badge-light, a:visited .badge-light{
+  color: inherit;
+  /* text-decoration: none; */
+}
+
+.color-behind-btn{
+  /* color: inherit; */
+}
+
+
 .circle-speaker-btn{
   height: 100px;
   width: 100px;
