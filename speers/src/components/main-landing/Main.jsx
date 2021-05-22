@@ -16,10 +16,9 @@ export default function Main(props) {
       {/* <TryItButton handleClick={props.handleClick}/> */}
       <Hero />
       <SuperiorSound />
-      <FrontRowSeats />
+      {/* <FrontRowSeats /> */}
       <div class="bg-color-black">
-
-      <Perks />
+        <Perks />
       </div>
       <Reviews />
       <GetECNow />

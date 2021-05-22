@@ -16,11 +16,19 @@
   background: none;
   width: 100%;
   margin-top: 30px;
+  letter-spacing: 4.8px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.navbar-brand{
+  font: normal normal normal 44px/57px Helvetica Neue;
 }
 .bg-color-black{
   background-color: #191919;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link{
+  font: normal normal normal 48px/57px Helvetica Neue;
+}
 /* --------- HERO -------------------------------------*/
 .carousel-indicators li{
   width: 10px;
@@ -37,29 +45,24 @@
   background-color: #FFF;
 }
 .carousel-item{
-    /* align-items: center; */
-  /* align-self: center; */
-  /* top: 50%; */
-  /* text-align: center; */
-  color: magenta;
+  color: #FFF;
 }
 .carousel-caption h3{
-  font: normal normal bold 65px/79px Helvetica Neue;
+  font: normal normal bold 40px/79px Helvetica Neue;
   letter-spacing: 6.5px;
   color: #FFFFFF;
   opacity: 1;
-      /* align-items: center; */
-  /* align-self: center; */
-  top: 50%;
-  /* text-align: center; */
-  color: magenta;
+  color: #FFF;
+  width: max-content;
 }
 .carousel-caption p{
   text-align: center;
-  font: normal normal normal 32px/44px Helvetica Neue;
+  font: normal normal normal 30px/44px Helvetica Neue;
   letter-spacing: 3.2px;
   color: #FFFFFF;
   opacity: 1;
+  padding-bottom: 25%;
+
 }
 
 /* --------- PERKS -------------------------------------*/
@@ -67,8 +70,7 @@
   /* inherit background-color to change depending on which component renders perks */
   background-color: inherit;
   color: #FFF; 
-  margin-bottom: 7%;
-
+  padding-bottom: 7%;
 }
 .perks-section-title{
   font: bold 74px Helvetica Neue;
