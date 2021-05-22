@@ -13,7 +13,6 @@ import './main-landing.css';
 export default function Main(props) {
   return (
     <div>
-      {/* <TryItButton handleClick={props.handleClick}/> */}
       <Hero />
       <SuperiorSound />
       {/* <FrontRowSeats /> */}

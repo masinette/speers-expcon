@@ -1,16 +1,6 @@
-.superior-sound-bg-color{
-  background-color: #D34849;
-  height: 90vh;
-}
-.front-row-seats-bg-color{
-  background-color: #FFB43F;
-  height: 90vh;
-}
-.reviews-bg-color{
-  background-color: #21E1E9;
-  height: 90vh;
-}
 
+
+/* --------- NAV ------------------------------------- */
 .navbar{
   position: absolute;
   background: none;
@@ -22,6 +12,7 @@
 }
 .navbar-brand{
   font: normal normal normal 44px/57px Helvetica Neue;
+  padding-top: 10px;
 }
 .bg-color-black{
   background-color: #191919;
@@ -37,10 +28,9 @@
   width:600%;
   border-radius: 50%;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: -160%;
   left: -100%;
-  /* background-color: #000; */
   background-color: transparent;
 }
 .dropdown-item{
@@ -67,7 +57,6 @@
   border-radius: 100%;
   background-color: inherit;
   border: #FFF solid 1px;
-  /* margin-bottom: 100px; */
 }
 .carousel-indicators li:hover{
   background-color: #FFF;
@@ -94,8 +83,6 @@
   color: #FFFFFF;
   opacity: 1;
   padding-bottom: 25%;
-}
-.carousel-inner{
 }
 /* --------- PERKS -------------------------------------*/
 .perks-bg-color{
@@ -139,7 +126,6 @@
 /* --------- FOOTER -------------------------------------*/
 .footer-bg-color{
   background-color: #5E33D1;
-  /* height: 30vh; */
   color: #FFF;
   padding-top: 140px;
   padding-bottom: 40px;
@@ -180,7 +166,6 @@
 .pricing-section-description{
   text-align: left;
   font: normal normal normal 45px Helvetica Neue;
-  /* letter-spacing: 5.1px; */
   color: #FFFFFF;
   opacity: 1;
   padding-bottom: 100px;
@@ -190,7 +175,6 @@
   list-style-type: none;
   text-align: left;
   font: normal normal normal 30px/64px Helvetica Neue;
-  /* letter-spacing: 4.7px; */
   color: #FFFFFF;
   opacity: 1;
 }
@@ -255,7 +239,6 @@
 .pricing-packages{
   display: flexbox;
   margin-top: 200px;
-  /* width: 100vw */
 }
 .pricing-page-bg-color{
   background-color: #191919;
@@ -269,6 +252,10 @@
 }
 
 /* --------- SUPERIOR SOUND -------------------------------------*/
+.superior-sound-bg-color{
+  background-color: #D34849;
+  height: 90vh;
+}
 .ss-speaker-right{
   transform: scaleX(-1);
   height: 20%;
@@ -328,6 +315,10 @@
 }
 
 /* --------- REVIEWS -------------------------------------*/
+.reviews-bg-color{
+  background-color: #21E1E9;
+  height: 90vh;
+}
 .review-monitor-top, .review-monitor-bottom{
   height: 100%;
   width: 150%;
@@ -345,7 +336,6 @@
 .review-text{
   font: normal normal 30px/43px Helvetica Neue;
   letter-spacing: 3.5px;
-  /* padding-left: 10%; */
 }
 .review-wrapper{
   padding-top: 200px;
@@ -357,4 +347,11 @@
   padding-left: 26%;
   padding-bottom: 25px;
   color: #FFF;
+}
+
+/* --------- FRONT ROW SEATS -------------------------------------*/
+
+.front-row-seats-bg-color{
+  background-color: #FFB43F;
+  height: 90vh;
 }
