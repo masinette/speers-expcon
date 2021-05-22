@@ -2,7 +2,7 @@ import React from 'react'
 import { Badge } from 'react-bootstrap';
 import "../buttons/tryItButton.css"
 
-export default function TryItButton(props) {
+export default function SeeDemoButton(props) {
 
   return (
     <div  class="try-it-btn" >

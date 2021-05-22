@@ -3,11 +3,11 @@ import { Button, Badge } from 'react-bootstrap';
 import { useHistory, Link } from 'react-router-dom';
 import "../buttons/tryItButton.css"
 
-export default function TryItButton(props) {
+export default function LargeTryItButton(props) {
 
   return (
     <div  class="try-it-btn" >
-        <a href="/pricing" >
+        <a href="speers-expcon/pricing" >
           <Badge pill type="button" variant="lg-dark" >Try It Now</Badge>
         </a>
     </div>
