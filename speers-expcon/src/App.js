@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Payments from "./components/Payments";
 import PricingPage from "./components/PricingPage";
 import NavBar from "./components/NavBar";
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         {/* <NavBar/> */}
         <Switch>
           <Route path="/" exact component={() => <Main />} />
@@ -22,7 +23,7 @@ function App() {
           {/* <Route path="/pricing" exact component={() => <PricingPage />} /> */}
         </Switch>
         {/* <Footer/> */}
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
