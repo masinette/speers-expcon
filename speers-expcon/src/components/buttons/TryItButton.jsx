@@ -7,7 +7,7 @@ export default function TryItButton(props) {
 
   return (
     <div  class="try-it-btn" >
-        <a href="speers-expcon/pricing" >
+        <a href="/pricing" >
           <Badge pill type="button" variant="dark" >Try It Now</Badge>
         </a>
     </div>
