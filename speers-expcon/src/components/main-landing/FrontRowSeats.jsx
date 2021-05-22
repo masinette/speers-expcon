@@ -13,8 +13,10 @@ export default function FrontRowSeats(props) {
         <Container>
           <Row>
             <Col>
-              <div class="circle-reveal-button">
-                <CirclePresentationButton text={"Reveal"}/>
+              <div class="fr-image-circle-wrapper">
+                <div class="circle-reveal-button">
+                  <CirclePresentationButton text={"Reveal"}/>
+                </div>
               </div>
             </Col>
             <Col>
@@ -25,7 +27,7 @@ export default function FrontRowSeats(props) {
               </div>
             </Col>
           </Row>
-        </Container>      
+        </Container>
       </div>
     </div>
   )

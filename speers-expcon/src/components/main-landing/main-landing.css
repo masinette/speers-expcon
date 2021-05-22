@@ -390,6 +390,14 @@
   padding-bottom: 2%;
   padding-top: 2%;
 }
-.fr-speaker-wrapper{
-  height: 100%;
+.fr-image-circle-wrapper{
+  height: 110%;
+  width: 80%;
+  background-color: #000;
+  margin-top: 40%;
 }
+
+
+
+
+
