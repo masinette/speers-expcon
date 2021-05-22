@@ -1,6 +1,6 @@
 {
+  "homepage": "https://masinette.github.io/speers/",
   "name": "speers",
-  "homepage": "https://masinette.github.io/speers-expcon/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
