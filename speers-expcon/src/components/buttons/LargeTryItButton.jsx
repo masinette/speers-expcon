@@ -7,9 +7,11 @@ export default function LargeTryItButton(props) {
 
   return (
     <div  class="try-it-btn" >
-          <Badge pill type="button" variant="lg-dark">
-            <Link to="/pricing">Try It Now</Link>
-          </Badge>
+      <Link to="/pricing">
+        <Badge pill type="button" variant="lg-dark">
+          Try It Now
+        </Badge>
+      </Link>
     </div>
   )
 };

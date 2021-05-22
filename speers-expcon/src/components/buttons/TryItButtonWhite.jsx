@@ -7,9 +7,11 @@ export default function TryItButtonWhite(props) {
 
   return (
     <div class="try-it-btn" >
-      <Badge pill type="button" variant="light">
-          <Link to="/pricing">Try It Now</Link>
-      </Badge>
+      <Link to="/pricing">
+        <Badge pill type="button" variant="light">
+          Try It Now
+        </Badge>
+      </Link>
     </div>
   )
 };
