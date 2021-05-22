@@ -18,7 +18,13 @@ export default function Main(props) {
       <SuperiorSound />
       {/* <FrontRowSeats /> */}
       <div class="bg-color-black">
-        <Perks button={TryItButton}/>
+        <Perks 
+          button={TryItButton} 
+          perksCol1={"perks-col-1"} 
+          perksCol2={"perks-col-2"} 
+          perksCol3={"perks-col-3"}
+          perksColTextColor={"perks-col-text-color"}
+        />
       </div>
       <Reviews />
       <GetECNow />

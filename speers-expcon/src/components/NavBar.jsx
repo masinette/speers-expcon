@@ -13,8 +13,8 @@ export default function NavBar(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <NavDropdown title="&#9776;" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">Home</NavDropdown.Item>
-              <NavDropdown.Item class="primary-color" as={Link} to="/">What is it?</NavDropdown.Item>
+              {/* <NavDropdown.Item as={Link} to="/">Home</NavDropdown.Item> */}
+              <NavDropdown.Item >What is it?</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/">Perks</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/pricing">Pricing</NavDropdown.Item>
             </NavDropdown>

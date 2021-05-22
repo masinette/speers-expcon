@@ -32,8 +32,26 @@
 .dropdown-toggle::after{
   display: none;
 }
-
---------- HERO -------------------------------------
+.dropdown-menu.show{
+  height: 600%;
+  width:600%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: -160%;
+  left: -100%;
+  /* background-color: #000; */
+  background-color: transparent;
+}
+.dropdown-item{
+  /* inherit bg here */
+  color: #FFF;
+  padding-left: 40%;
+}
+.dropdown-menu{
+  padding-top: 300%;
+}
+/* --------- HERO ------------------------------------- */
 .carousel-control-prev-icon{
   background-image: none;
 }
@@ -76,9 +94,9 @@
   color: #FFFFFF;
   opacity: 1;
   padding-bottom: 25%;
-
 }
-
+.carousel-inner{
+}
 /* --------- PERKS -------------------------------------*/
 .perks-bg-color{
   /* inherit background-color to change depending on which component renders perks */
@@ -101,7 +119,6 @@
 }
 .perks-col-text{
   font: 30px Helvetica Neue;
-  color: #0B0B0B;
   text-align: left; 
   padding-right: 10px;
 }
@@ -109,7 +126,18 @@
   text-align: left;
   font-weight: bold;
 }
-
+.perks-col-1{
+  color: #D34848;
+}
+.perks-col-2{
+  color: #1FE1E9;
+}
+.perks-col-3{
+  color: #FFB33F;
+}
+.perks-col-text-color{
+  color: #FFF;
+}
 /* --------- FOOTER -------------------------------------*/
 .footer-bg-color{
   background-color: #5E33D1;

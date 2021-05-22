@@ -17,19 +17,27 @@ export default function Perks(props) {
         <Container>
           <Row>
             <Col>
-              <p class="perks-col-line-break">___________</p>
-              <h3 class="perks-col-title">Subscription Payment Model</h3>
-              <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+              <div class={props.perksCol1}>
+                <p class="perks-col-line-break">___________</p>
+                <h3 class="perks-col-title">Subscription Payment Model</h3>
+              </div>
+              <div class={props.perksColTextColor}>
+                <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+              </div>
             </Col>
             <Col>
-              <p class="perks-col-line-break">___________</p>
-              <h3 class="perks-col-title">No Fee Cancelation Policy</h3>            
-              <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+              <div class={props.perksCol2}>
+                <p class="perks-col-line-break">___________</p>
+                <h3 class="perks-col-title">No Fee Cancelation Policy</h3>            
+              </div>
+                <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </Col>
             <Col>
-              <p class="perks-col-line-break">___________</p>
-              <h3 class="perks-col-title">Subscription Payment Model</h3>
-              <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
+              <div class={props.perksCol3}>
+                <p class="perks-col-line-break">___________</p>
+                <h3 class="perks-col-title">Subscription Payment Model</h3>
+              </div>
+                <p class="perks-col-text">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </Col>
           </Row>
         </Container>
