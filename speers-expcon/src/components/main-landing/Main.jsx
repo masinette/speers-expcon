@@ -8,6 +8,7 @@ import Reviews  from "../main-landing/Reviews"
 import GetECNow  from "../main-landing/GetECNow"
 import Footer from "../main-landing/Footer"
 import './main-landing.css';
+import TryItButtonWhite from '../buttons/TryItButtonWhite';
 
 
 export default function Main(props) {
@@ -15,7 +16,7 @@ export default function Main(props) {
     <div>
       <Hero />
       <SuperiorSound />
-      {/* <FrontRowSeats /> */}
+      <FrontRowSeats button={TryItButtonWhite}/>
       <div class="bg-color-black">
         <Perks 
           button={TryItButton} 

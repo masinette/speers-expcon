@@ -23,7 +23,7 @@ export default function SuperiorSound() {
               <div class="ss-text-wrapper">
                 <h5 class="ss-title">SUPERIOR SOUND</h5>
                 <p class="ss-text">Experience live versions of your favourite songs.</p>
-                <SeeDemoButton/>
+                <SeeDemoButton textColor={"superior-sound-color"}/>
               </div>
             </Col>
             <Col>
@@ -31,7 +31,7 @@ export default function SuperiorSound() {
                 <img class="ss-speaker-left" src={speakerImage} alt="speaker box" />
                 <img class="ss-speaker-right" src={speakerImage} alt="speaker box" />
               </div>
-                <CirclePresentationButton/>
+                <CirclePresentationButton text={"Click"}/>
             </Col>
           </Row>
         </Container>

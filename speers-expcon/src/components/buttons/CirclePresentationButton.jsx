@@ -5,6 +5,6 @@ import "../buttons/tryItButton.css"
 export default function CirclePresentationButton(props) {
 
   return (
-    <button type="submit" class="circle-speaker-btn">Click</button>
+    <button type="submit" class="circle-speaker-btn">{props.text}</button>
   )
 };

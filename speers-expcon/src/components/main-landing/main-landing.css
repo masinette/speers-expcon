@@ -97,7 +97,7 @@
   text-align: left;
   margin-bottom: 50px;
   padding-top: 150px;
-  margin-left: 11%;
+  margin-left: 7%;
 }
 .perks-col-title{
   text-align: left;
@@ -256,6 +256,9 @@
   background-color: #D34849;
   height: 90vh;
 }
+.superior-sound-color, .superior-sound-bg-color a .badge-light, .superior-sound-bg-color a:visited .badge-light{
+  color: #D34849;
+}
 .ss-speaker-right{
   transform: scaleX(-1);
   height: 20%;
@@ -319,6 +322,9 @@
   background-color: #21E1E9;
   height: 90vh;
 }
+.reviews-color, .reviews-bg-color a .badge-light, .reviews-bg-color a:visited .badge-light{
+  color: #21E1E9;
+}
 .review-monitor-top, .review-monitor-bottom{
   height: 100%;
   width: 150%;
@@ -354,4 +360,36 @@
 .front-row-seats-bg-color{
   background-color: #FFB43F;
   height: 90vh;
+}
+.front-row-seats-color, .front-row-seats-bg-color a .badge-light, .front-row-seats-bg-color a:visited .badge-light{
+  color: #FFB43F;
+}
+.front-row-seats-wrapper{
+  background-image: url("../../images/Image\ 4.png");
+  background-size: 90vw;
+  /* background-repeat: no-repeat; */
+  background-position: -70% 40%;
+  /* zoom: 50% */
+  /* transform: scale(1.05) */
+}
+.fr-title{
+  text-align: left;
+  font: normal normal bold 54px Helvetica Neue;
+  letter-spacing: 7.4px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 40%;
+  width: max-content
+}
+.fr-text{
+  text-align: left;
+  font: normal normal normal 35px Helvetica Neue;
+  letter-spacing: 5.1px;
+  color: #0B0B0B;
+  opacity: 1;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.fr-speaker-wrapper{
+  height: 100%;
 }

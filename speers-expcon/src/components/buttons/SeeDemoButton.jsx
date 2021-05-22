@@ -8,7 +8,7 @@ export default function SeeDemoButton(props) {
     <div>
         <a href="/" class="try-it-white-btn">
           <div class="color-behind-btn">
-            <Badge pill type="button" variant="light" >See Demo</Badge>
+            <Badge pill type="button" variant="light"><span class={props.textColor}>See Demo</span></Badge>
           </div>
         </a>
     </div>
