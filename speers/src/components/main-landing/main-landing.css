@@ -30,6 +30,15 @@
   font: normal normal normal 48px/57px Helvetica Neue;
 }
 /* --------- HERO -------------------------------------*/
+.carousel-control-prev-icon{
+  background-image: none;
+}
+.carousel-control-next-icon{
+  background: none;
+}
+.carousel-control-prev{
+  right:-50px;
+}
 .carousel-indicators li{
   width: 10px;
   height: 10px;
@@ -48,7 +57,7 @@
   color: #FFF;
 }
 .carousel-caption h3{
-  font: normal normal bold 40px/79px Helvetica Neue;
+  font: normal normal bold 55px/79px Helvetica Neue;
   letter-spacing: 6.5px;
   color: #FFFFFF;
   opacity: 1;
