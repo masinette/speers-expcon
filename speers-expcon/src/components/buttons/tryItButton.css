@@ -9,6 +9,7 @@
   background-color: #FFF;
   text-transform: uppercase;
   padding: 15px 50px;
+  position: relative;
 }
 .circle-speaker-btn{
   height: 100px;
