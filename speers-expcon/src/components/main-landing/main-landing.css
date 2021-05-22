@@ -57,7 +57,8 @@
   color: #FFF;
 }
 .carousel-caption h3{
-  font: normal normal bold 55px/79px Helvetica Neue;
+  text-align: center;
+  font: normal normal bold 50px/79px Helvetica Neue;
   letter-spacing: 6.5px;
   color: #FFFFFF;
   opacity: 1;
