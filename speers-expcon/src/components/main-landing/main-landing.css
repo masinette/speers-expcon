@@ -85,6 +85,9 @@
   opacity: 1;
   padding-bottom: 25%;
 }
+.carousel-item img{
+  height: 100vh;
+}
 /* --------- PERKS -------------------------------------*/
 .perks-bg-color{
   /* inherit background-color to change depending on which component renders perks */
