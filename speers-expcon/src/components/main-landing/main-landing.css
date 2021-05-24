@@ -9,6 +9,7 @@
   letter-spacing: 4.8px;
   color: #FFFFFF;
   opacity: 1;
+  z-index: 11; /* default z-index of bootstrap carousel is 10 */
 }
 .navbar-brand{
   font: normal normal normal 44px/57px Helvetica Neue;
@@ -42,14 +43,14 @@
   padding-top: 300%;
 }
 /* --------- HERO ------------------------------------- */
-.carousel-control-prev-icon{
+/* .carousel-control-prev-icon{
   background-image: none;
 }
 .carousel-control-next-icon{
   background: none;
-}
-.carousel-control-prev{
-  right:-50px;
+} */
+.carousel-control-prev, .carousel-control-next{
+  display: none;
 }
 .carousel-indicators li{
   width: 10px;
@@ -69,13 +70,12 @@
 }
 .carousel-caption h3{
   text-align: center;
-  font: normal normal bold 45px/79px Helvetica Neue;
+  font: normal normal bold 55px/79px Helvetica Neue;
   letter-spacing: 6.5px;
   color: #FFFFFF;
   opacity: 1;
   color: #FFF;
-  width: max-content;
-  margin-left: 0;
+  margin: auto;
 }
 .carousel-caption p{
   text-align: center;
@@ -83,12 +83,14 @@
   letter-spacing: 3.2px;
   color: #FFFFFF;
   opacity: 1;
+  width: 70%;
+  margin-left: 20%;
 }
 .carousel-item img{
   height: 100vh;
 }
 .carousel-caption .badge-pill{
-  margin-bottom: 25%;
+  margin: 0 auto 20% auto;
 }
 /* --------- PERKS -------------------------------------*/
 .perks-bg-color{

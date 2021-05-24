@@ -16,7 +16,7 @@ export default function Main(props) {
     <div>
       <Hero />
       <SuperiorSound />
-      {/* <FrontRowSeats button={TryItButtonWhite}/> */}
+      <FrontRowSeats button={TryItButtonWhite}/>
       <div class="bg-color-black">
         <Perks 
           button={TryItButton} 
