@@ -19,14 +19,14 @@ a .badge-light, a:visited .badge-light{
   /* text-decoration: none; */
 }
 .circle-speaker-btn{
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   background-color: transparent;
-  border: solid 2px #fff;
+  border: solid 4px #fff;
   color: #FFF;
   text-transform: uppercase;
-  font: normal normal bold 18px Helvetica Neue;
+  font: normal normal bold 27px Helvetica Neue;
   letter-spacing: 2.7px;
   opacity: 1;
   position: absolute;
