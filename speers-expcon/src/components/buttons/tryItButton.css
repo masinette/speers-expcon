@@ -10,6 +10,7 @@
   text-transform: uppercase;
   padding: 15px 50px;
   position: relative;
+  z-index: 1;
 }
 a .badge-light, a:visited .badge-light{
   color: inherit;
