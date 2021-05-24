@@ -10,13 +10,15 @@ export default function FrontRowSeats(props) {
     <div class="front-row-seats-wrapper">
       <div class="front-row-seats-bg-color">
         <NavBar button={props.button}/>
-        <Container>
+        <Container fluid>
           <Row>
             <Col>
               <div class="fr-image-circle-wrapper">
-                <div class="circle-reveal-button">
+                <div class="fr-image-circle-top"></div>
+                <div class="fr-image-circle-middle">
                   <CirclePresentationButton text={"Reveal"}/>
                 </div>
+                <div class="fr-image-circle-bottom"></div>
               </div>
             </Col>
             <Col>
