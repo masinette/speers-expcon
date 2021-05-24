@@ -27,7 +27,7 @@ export default function Hero(props) {
             {/* <TryItButton/> */}
         </Carousel.Item>
 
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={10000}>
         <NavBar/>
           <img
             className="d-block w-100"
@@ -40,7 +40,7 @@ export default function Hero(props) {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={10000}>
         <NavBar/>
 
           <img
