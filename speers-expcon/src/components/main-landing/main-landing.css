@@ -83,10 +83,12 @@
   letter-spacing: 3.2px;
   color: #FFFFFF;
   opacity: 1;
-  padding-bottom: 25%;
 }
 .carousel-item img{
   height: 100vh;
+}
+.carousel-caption .badge-pill{
+  margin-bottom: 25%;
 }
 /* --------- PERKS -------------------------------------*/
 .perks-bg-color{

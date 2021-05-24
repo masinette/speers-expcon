@@ -23,8 +23,8 @@ export default function Hero(props) {
           <Carousel.Caption >
             <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
             <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
+            <TryItButton/>
           </Carousel.Caption>
-            {/* <TryItButton/> */}
         </Carousel.Item>
 
         <Carousel.Item interval={10000}>
@@ -37,6 +37,7 @@ export default function Hero(props) {
           <Carousel.Caption>
             <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
             <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
+            <TryItButton/>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -51,6 +52,7 @@ export default function Hero(props) {
           <Carousel.Caption>
             <h3>INTERACTIVE CONCERT EXPERIENCE</h3>
             <p>Experience your favourite artists like never before and from the comfort of your own home.</p>
+            <TryItButton/>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
