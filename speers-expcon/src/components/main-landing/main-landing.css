@@ -390,15 +390,16 @@
 .front-row-seats-bg-color{
   background-color: #FFB43F;
   height: 90vh;
+  opacity: 0.5;
 }
 .front-row-seats-color, .front-row-seats-bg-color a .badge-light, .front-row-seats-bg-color a:visited .badge-light{
   color: #FFB43F;
 }
 .front-row-seats-wrapper{
   background-image: url("../../images/Image\ 4.png");
-  background-size: 90vw;
+  background-size: 135vw;
   /* background-repeat: no-repeat; */
-  background-position: -70% 40%;
+  background-position: 130% 45%;
   /* zoom: 50% */
   /* transform: scale(1.05) */
 }
@@ -426,6 +427,7 @@
   border: #000 solid 3px;
   margin-top: 15%;
   margin-left: 10%;
+  background-color: transparent;
 }
 .fr-image-circle-top{
   height: 40%;
@@ -435,6 +437,11 @@
   border-radius: 50%;
   position: absolute;
   margin-top: 1%;
+  background-color: transparent;
+}
+.front-row-seats-bg-color .fr-image-circle-top{
+  opacity: 0.5;
+  background-color: transparent;
 }
 .fr-image-circle-middle{
   height: 20%;
@@ -454,7 +461,6 @@
   margin-top: 22%;
 }
 .fr-image-circle-middle button.circle-speaker-btn{
-  border: magenta solid 3px;
   margin-left: -30%;
   margin-top: -30%;
 
@@ -472,6 +478,6 @@
 
 
 
-*{
+/* *{
   border: solid magenta 1px;
-}
+} */
